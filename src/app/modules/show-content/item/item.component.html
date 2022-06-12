@@ -1,0 +1,17 @@
+19 lines (19 sloc)  743 Bytes
+<div class="ui-item">
+    <div class="ui-image" [style.backgroundImage]="'url('+item?.image+')'"></div>
+    <div>
+        <p class="ui-text-brand">{{item?.brand}}</p>
+        <p class="ui-text-name">{{item?.name}}</p>
+        <div class="ui-more-info">
+            <div class="ui-small-section">
+                <span class="ui-text-price">$ {{item?.price}}</span>
+                <span><i class="uil uil-eye"></i></span>
+            </div>
+        </div>
+    </div>
+    <div>
+      <button>Agregar</button>
+    </div>
+</div>
